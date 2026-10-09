@@ -1,0 +1,33 @@
+=== ===============
+a10 R Documentation
+=== ===============
+
+Monthly anti-diabetic drug subsidy in Australia from 1991 to 2008.
+------------------------------------------------------------------
+
+Description
+~~~~~~~~~~~
+
+Monthly government expenditure (millions of dollars) as part of the
+Pharmaceutical Benefit Scheme for products falling under ATC code A10 as
+recorded by the Australian Health Insurance Commission. July 1991 - June
+2008.
+
+Format
+~~~~~~
+
+Monthly time series of class ``ts``.
+
+Source
+~~~~~~
+
+Medicare Australia
+
+Examples
+~~~~~~~~
+
+.. code:: R
+
+
+   autoplot(a10)
+   ggseasonplot(a10)

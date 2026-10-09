@@ -1,0 +1,44 @@
+========== ===============
+ldeaths_ts R Documentation
+========== ===============
+
+Monthly Deaths from Lung Diseases in the UK
+-------------------------------------------
+
+Description
+~~~~~~~~~~~
+
+The dataset name has been changed to 'ldeaths_ts' to avoid confusion
+with other datasets from packages in the R ecosystem and to follow the
+naming conventions of the 'MedDataSets' package. The suffix '\_ts'
+indicates that this dataset is a time series, helping to distinguish it
+from other datasets within the package and from those in the broader R
+ecosystem. The original content of the dataset has not been modified in
+any way.
+
+Usage
+~~~~~
+
+.. code:: R
+
+   data(ldeaths_ts)
+
+Format
+~~~~~~
+
+A time series object with 72 observations:
+
+ldeaths
+   A numeric vector containing the number of monthly deaths from lung
+   diseases in the UK.
+
+Details
+~~~~~~~
+
+This dataset provides information on the monthly deaths from lung
+diseases in the UK, recorded from 1974 to 1980.
+
+Source
+~~~~~~
+
+Office for National Statistics, UK.

@@ -1,0 +1,18 @@
+== ===============
+p1 R Documentation
+== ===============
+
+internal p1
+-----------
+
+Description
+~~~~~~~~~~~
+
+intended for internal use only
+
+Usage
+~~~~~
+
+.. code:: R
+
+   p1

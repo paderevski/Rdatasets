@@ -1,0 +1,39 @@
+============== ===============
+gtemp_ocean_ts R Documentation
+============== ===============
+
+Global Mean Ocean Temperature Deviations (1850-2023).
+-----------------------------------------------------
+
+Description
+~~~~~~~~~~~
+
+The dataset name has been changed to 'gtemp_ocean_ts' to avoid confusion
+with other packages in the R ecosystem from which datasets have been
+sourced. The suffix 'ts' indicates that this dataset is a time series
+object. This naming convention helps distinguish this dataset as part of
+the 'timeseriesdatasets' package and assists users in identifying its
+specific characteristics. The original content of the dataset has not
+been modified in any way.
+
+Usage
+~~~~~
+
+.. code:: R
+
+   data(gtemp_ocean_ts)
+
+Format
+~~~~~~
+
+A time series object with 174 observations:
+
+gtemp_ocean
+   A numeric vector representing the global mean ocean temperature
+   deviations from the long-term average, measured in degrees Celsius.
+
+Source
+~~~~~~
+
+Data provided by the National Oceanic and Atmospheric Administration
+(NOAA) and the Hadley Centre.

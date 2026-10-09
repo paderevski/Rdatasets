@@ -1,0 +1,23 @@
+==== ===============
+hg19 R Documentation
+==== ===============
+
+Chromosomal lengths for build 37
+--------------------------------
+
+Description
+~~~~~~~~~~~
+
+Data are used in other functions.
+
+Usage
+~~~~~
+
+.. code:: R
+
+   data(hg19)
+
+Format
+~~~~~~
+
+A vector containing lengths of chromosomes.

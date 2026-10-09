@@ -1,0 +1,88 @@
+<!DOCTYPE html><html><head><title>R: Mice weights</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css">
+<script type="text/javascript">
+const macros = { "\\R": "\\textsf{R}", "\\mbox": "\\text", "\\code": "\\texttt"};
+function processMathHTML() {
+    var l = document.getElementsByClassName('reqn');
+    for (let e of l) { katex.render(e.textContent, e, { throwOnError: false, macros }); }
+    return;
+}</script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"
+    onload="processMathHTML();"></script>
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container"><main>
+
+<table style="width: 100%;"><tr><td>mice_weights</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Mice weights</h2>
+
+<h3>Description</h3>
+
+<p>Body weights, bone density, and percent fat for mice under two diets: chow and high fat. Data provided by Karen Svenson from Jackson Laboratories. Funding to generate these data came from NIH grant P50 GM070683 awarded to Gary Churchill.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre><code class='language-R'>mice_weights
+</code></pre>
+
+
+<h3>Format</h3>
+
+<p>An object of class <code>"data.frame"</code>.
+</p>
+
+
+<h3>Details</h3>
+
+
+<ul>
+<li><p> body_weight. Body weight in grams at 19 weeks.
+</p>
+</li>
+<li><p> bone_density. Body density.
+</p>
+</li>
+<li><p> percent_fat. Percent fat.
+</p>
+</li>
+<li><p> sex. The sex of the mice.
+</p>
+</li>
+<li><p> diet. The diet of the mice: chow or high fat.
+</p>
+</li>
+<li><p> gen. These are outbread mice. This variable denotes the generation.
+</p>
+</li>
+<li><p> litter. Which of two litters mice belong to.
+</p>
+</li></ul>
+
+
+
+<h3>Source</h3>
+
+<p>Karen Svenson, Daniel M. Gatti, and Gary Churchill from Jackson Laboratories.
+</p>
+
+
+<h3>References</h3>
+
+<p>Daniel M. Gatti, Petr Simecek, Lisa Somes, Clifton T. Jeffrey, Matthew J. Vincent, Kwangbom Choi, Xingyao Chen, Gary A. Churchill, and Karen L. Svenson. &quot;The Effects of Sex and Diet on Physiology and Liver Gene Expression in Diversity Outbred Mice&quot;. bioRxiv 098657; <a href="https://doi.org/10.1101/098657">doi:10.1101/098657</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre><code class='language-R'>mice_weights |&gt; head()
+with(mice_weights, table(sex, diet))
+</code></pre>
+
+</main>
+
+</div>
+</body></html>

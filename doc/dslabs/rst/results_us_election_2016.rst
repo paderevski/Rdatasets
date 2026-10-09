@@ -1,0 +1,78 @@
+====================== ===============
+polls_us_election_2016 R Documentation
+====================== ===============
+
+Fivethirtyeight 2016 Poll Data
+------------------------------
+
+Description
+~~~~~~~~~~~
+
+Poll results from US 2016 presidential elections aggregated from
+HuffPost Pollster, RealClearPolitics, polling firms, and news reports.
+The dataset also includes election results (popular vote) and electoral
+college votes in ``results_us_election_2016``.
+
+Usage
+~~~~~
+
+.. code:: R
+
+   polls_us_election_2016
+
+Format
+~~~~~~
+
+An object of class ``"data.frame"``.
+
+Details
+~~~~~~~
+
+- state. State in which poll was taken. 'U.S' is for national polls.
+
+- startdate. Poll's start date.
+
+- enddate. Poll's end date.
+
+- pollster. Pollster conducting the poll.
+
+- grade. Grade assigned by fivethirtyeight to pollster.
+
+- samplesize. Sample size.
+
+- population. Type of population being polled.
+
+- rawpoll_clinton. Percentage for Hillary Clinton.
+
+- rawpoll_trump. Percentage for Donald Trump
+
+- rawpoll_johnson. Percentage for Gary Johnson
+
+- rawpoll_mcmullin. Percentage for Evan McMullin.
+
+- adjpoll_clinton. Fivethirtyeight adjusted percentage for Hillary
+  Clinton.
+
+- ajdpoll_trump. Fivethirtyeight adjusted percentage for Donald Trump
+
+- adjpoll_johnson. Fivethirtyeight adjusted percentage for Gary Johnson
+
+- adjpoll_mcmullin. Fivethirtyeight adjusted percentage for Evan
+  McMullin.
+
+Source
+~~~~~~
+
+The original csv file used to create ``polls_us_election_2016`` is here:
+https://projects.fivethirtyeight.com/general-model/president_general_polls_2016.csv
+
+The data for ``results_us_election_2016`` is from Ballotpedia and can be
+found here:
+https://docs.google.com/spreadsheets/d/1zxyOQDjNOJS_UkzerorUCf2OAdcMcIQEwRciKuYBIZ4/pubhtml?widget=true&headers=false#gid=658726802/
+
+Examples
+~~~~~~~~
+
+.. code:: R
+
+   head(polls_us_election_2016)

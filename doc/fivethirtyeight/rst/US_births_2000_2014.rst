@@ -1,0 +1,53 @@
+=================== ===============
+US_births_2000_2014 R Documentation
+=================== ===============
+
+Some People Are Too Superstitious To Have A Baby On Friday The 13th
+-------------------------------------------------------------------
+
+Description
+~~~~~~~~~~~
+
+The raw data behind the story "Some People Are Too Superstitious To Have
+A Baby On Friday The 13th"
+https://fivethirtyeight.com/features/some-people-are-too-superstitious-to-have-a-baby-on-friday-the-13th/.
+
+Usage
+~~~~~
+
+.. code:: R
+
+   US_births_2000_2014
+
+Format
+~~~~~~
+
+A data frame with 5479 rows representing dates and 6 variables:
+
+year
+   Year
+
+month
+   Month
+
+date_of_month
+   Day
+
+date
+   POSIX date
+
+day_of_week
+   Abbreviation of day of week
+
+births
+   Number of births
+
+Source
+~~~~~~
+
+Social Security Administration
+
+See Also
+~~~~~~~~
+
+``US_births_1994_2003``.

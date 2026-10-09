@@ -1,0 +1,48 @@
+====== ===============
+simdat R Documentation
+====== ===============
+
+Simulated time series data.
+---------------------------
+
+Description
+~~~~~~~~~~~
+
+A dataset containing the sine wave data with random noise added.
+
+Usage
+~~~~~
+
+.. code:: R
+
+   simdat
+
+Format
+~~~~~~
+
+A data frame with 75600 rows and 6 variables:
+
+``Group``
+   Age group of participants: Adults or Children.
+
+``Time``
+   Time, time measure from start of each time series.
+
+``Trial``
+   Trial in the experiment, centered around zero.
+
+``Condition``
+   Continuous variable, ranging from -1 to 4. For example, stimulus
+   onset asynchrony.
+
+``Subject``
+   Code for individual participants.
+
+``Y``
+   Time series measure. Similar to pupil size, sensor position, or
+   voltage.
+
+Author(s)
+~~~~~~~~~
+
+Jacolien van Rij

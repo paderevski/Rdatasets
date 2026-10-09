@@ -1,0 +1,28 @@
+==== ===============
+hg18 R Documentation
+==== ===============
+
+Chromosomal lengths for build 36
+--------------------------------
+
+Description
+~~~~~~~~~~~
+
+Data are used in other functions.
+
+Usage
+~~~~~
+
+.. code:: R
+
+   data(hg18)
+
+Format
+~~~~~~
+
+A vector containing lengths of chromosomes.
+
+Details
+~~~~~~~
+
+generated from GRCh.R.

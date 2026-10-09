@@ -1,0 +1,78 @@
+========= ===============
+elem94_95 R Documentation
+========= ===============
+
+elem94_95
+---------
+
+Description
+~~~~~~~~~~~
+
+Wooldridge Source: Culled from a panel data set used by Leslie Papke in
+her paper “The Effects of Spending on Test Pass Rates: Evidence from
+Michigan” (2005), Journal of Public Economics 89, 821-839. Data loads
+lazily.
+
+Usage
+~~~~~
+
+.. code:: R
+
+   data('elem94_95')
+
+Format
+~~~~~~
+
+A data.frame with 1848 observations on 14 variables:
+
+- **distid:** district identifier
+
+- **schid:** school identifier
+
+- **lunch:** percent eligible, free lunch
+
+- **enrol:** enrollment
+
+- **staff:** staff per 1000 students
+
+- **exppp:** expenditures per pupil
+
+- **avgsal:** average teacher salary, $
+
+- **avgben:** average teacher non-salary benefits, $
+
+- **math4:** percent passing 4th grade math test
+
+- **story4:** percent passing 4th grade reading test
+
+- **bs:** avgben/avgsal
+
+- **lavgsal:** log(avgsal)
+
+- **lenrol:** log(enrol)
+
+- **lstaff:** log(staff)
+
+Notes
+~~~~~
+
+Starting in 1995, the Michigan Department of Education stopped reporting
+average teacher benefits along with average salary. This data set
+includes both variables, at the school level, and can be used to study
+the salary-benefits tradeoff, as in Chapter 4. There are a few
+suspicious benefits/salary ratios, and so this data set makes a good
+illustration of the impact of outliers in Chapter 9.
+
+Used in Text: pages 166-167, 341-342
+
+Source
+~~~~~~
+
+https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&product_isbn_issn=9781111531041
+
+Examples
+~~~~~~~~
+
+.. code:: R
+
+    str(elem94_95)
